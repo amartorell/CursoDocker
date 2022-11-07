@@ -1,0 +1,3 @@
+Correr este comando en powershell
+
+docker run --name test_nginx2 -v  C:\Users\amartorell\Documents\CursoDocker\ejercicio01:/usr/share/nginx/html:ro -p 8042:80 -d nginx
